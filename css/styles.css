@@ -18,20 +18,20 @@ h1 {
   font-weight: bolder;
 }
 
-h2{
+h2 {
   font-family: "Montserrat";
   font-weight: 600;
   font-size: 3rem;
   line-height: 1.5;
 }
 
-h3{
+h3 {
   font-family: 'Montserrat';
   font-weight: bold;
   font-size: 1.5rem;
 }
-/* navigation bar */
 
+/* navigation bar */
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -53,13 +53,11 @@ h3{
 }
 
 /* download buttons */
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* title image */
-
 .title-image {
   width: 60%;
   transform: rotate(25deg);
@@ -67,11 +65,7 @@ h3{
   right: 30%;
 }
 
-.title-image-box {
-}
-
 /* features */
-
 .features-icons {
   margin-bottom: 1rem;
   color: #ef8172;
@@ -84,6 +78,7 @@ h3{
 .features-container {
   text-align: center;
 }
+
 .features-titles {
   font-size: 1.5rem;
   font-family: 'Montserrat';
@@ -95,24 +90,26 @@ h3{
   font-size: 1.1rem;
   font-family: 'Montserrat';
   color: #8f8f8f;
-  width:280px;
+  width: 280px;
 }
+
 p {
-    /* margin: auto; */
-    font-size: 1.1rem;
-    font-family: 'Montserrat';
-    color: #8f8f8f;
-    /* width:280px; */
+  /* margin: auto; */
+  font-size: 1.1rem;
+  font-family: 'Montserrat';
+  color: #8f8f8f;
+  /* width:280px; */
 }
+
 #features {
   padding: 7% 15%;
   background-color: #f8fab8;
+  /* background-color: #fff; */
   position: relative;
 }
 
 /* Testimonial Section */
 #testimonials {
-
   text-align: center;
   background-color: #ef8172;
   color: #fff;
@@ -140,27 +137,61 @@ p {
 }
 
 /* pricing */
-
 .btnColor {
   background-color: #84a9ac;
   border-color: #84a9ac;
-  }
+}
 
-  #pricing {
-    text-align: center;
-    padding: 100px;
-  }
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
 
-  .pricing-column {
-    padding: 3% 2%;
-  }
+.pricing-column {
+  padding: 3% 2%;
+}
 
-  /* cta */
+/* cta */
 #cta {
+  color: #fff;
+  text-align: center;
+  background-color: #ff4c68;
+  margin: auto;
+}
+
+.cta-message {
+  padding-top: 5%;
+  margin: auto;
+  text-align: center;
+  width: 60%;
+  font-size: 3rem;
+}
+
+/* footer */
+#footer {
+  padding-top: 5%;
+  background-color: #fff;
   text-align: center;
 }
 
-  /* footer */
-#footer {
-  text-align: center;
+.copyright-note {
+  font-size: .9rem;
+}
+
+.footer-icons {
+  color: #84a9ac;
+  size: 2x;
+  margin: 10px;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    right: auto;
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
 }
